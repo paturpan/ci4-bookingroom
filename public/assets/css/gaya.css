@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.2s linear;
+}
+
+.container2 {
+  padding: 5px;
+  width: auto;
+  display: flex;
+  box-shadow: 0 15px 15px rgba(59, 6, 248, 0.3);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container2 .main-video {
+  margin: 1rem;
+  height: 18rem;
+  width: 25rem;
+  background-color: rgba(6, 18, 53, 0.8);
+  border-radius: 5%;
+  border: 1px solid rgba(30, 155, 204, 0.8);
+  overflow: hidden;
+}
+
+.container2 .main-video video.active,
+.container2 .main-video video:hover {
+  transition: 0.2s linear;
+  background: rgb(43, 39, 28);
+  box-shadow: 0 0 0 4px;
+  border-radius: 5%;
+}
+
+.container2 .main-video video {
+  width: 100%;
+  outline: none;
+  height: 80%;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  background: rgb(3, 6, 7);
+}
